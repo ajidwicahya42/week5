@@ -1,0 +1,47 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .tabs {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tab-link {
+    padding: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .tab-link.current {
+    background-color: lightsalmon;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+  
+  .tab-content.current {
+    display: block;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
